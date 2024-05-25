@@ -6,8 +6,8 @@ import { MdFavoriteBorder } from "react-icons/md";
 function Navbar() {
     return (
         <>
-            <div className='navbar'>
-                <div className="Logo">
+            <nav className='navbar'>
+                <div className="logo">
                     <img src="./logo.webp" alt="Logo" />
                 </div>
                 <ul className='list'>
@@ -18,12 +18,12 @@ function Navbar() {
                     <li><Link to='/'>Contact</Link></li>
                 </ul>
                 <div className="favorit">
-                    <IoIosSearch />
-                    <MdFavoriteBorder />
+                    <input type="text" placeholder='Searc' /><IoIosSearch />
+                   <Link to='/favorit'><MdFavoriteBorder /></Link> 
                 </div>
 
 
-            </div>
+            </nav>
         </>
     )
 }
