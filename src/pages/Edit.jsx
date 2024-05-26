@@ -2,7 +2,10 @@ import React from 'react'
 
 function Edit() {
   return (
-    <div>Edit</div>
+    <>
+    <label htmlFor="name">Name:</label><input type="text" />
+    <label htmlFor=""></label>
+    </>
   )
 }
 

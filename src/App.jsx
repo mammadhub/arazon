@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import { Route,Routes} from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.css'
 import Home from './pages/Home'
 import Layout from './layout/Layout'
 import Admin from './pages/Admin'
